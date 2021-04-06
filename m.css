@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background: linear-gradient(#f2ff00 0%,#00ff88 100%);
+}
+.profile {
+    border-radius: 50%;
+  width:300px;
+}
+#bio{
+    color: white;
+  
+}
+p{
+    max-width: 450px; 
+    margin: 25px auto;
+}
+.menu
+{list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+.links:hover{
+    background-color: aqua;
+}
